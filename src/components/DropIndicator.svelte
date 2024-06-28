@@ -29,8 +29,8 @@
     $terminal-size: 8px;
     $thickness: 2px;
     $line-offset: calc(-0.5 * (var(--gap) + $thickness));
-    $terminal-radius: $terminal-size / 2;
-    $offset-terminal-to-align-with-line: ($thickness - $terminal-size) / 2;
+    $terminal-radius: calc($terminal-size / 2);
+    $offset-terminal-to-align-with-line: calc(($thickness - $terminal-size) / 2);
 
     display: none;
     position: absolute;
